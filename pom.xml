@@ -15,6 +15,7 @@
     <description>anomaly-detection</description>
     <properties>
         <java.version>17</java.version>
+        <statefun-sdk-java.version>3.2.0</statefun-sdk-java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -36,6 +37,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>statefun-sdk-java</artifactId>
+            <version>${statefun-sdk-java.version}</version>
         </dependency>
     </dependencies>
 
